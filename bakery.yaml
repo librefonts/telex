@@ -1,0 +1,5 @@
+commit: HEAD
+process_files: [Telex-Regular.ttf.ttx, src/Telex-Regular.otf.ttx, src/Telex-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
